@@ -14,6 +14,7 @@
 		D22518221AA0A5A3003C2A9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D22518201AA0A5A3003C2A9E /* LaunchScreen.xib */; };
 		D225182E1AA0A5A3003C2A9E /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D225182D1AA0A5A3003C2A9E /* SwiftDemoTests.swift */; };
 		D225183B1AA0A86B003C2A9E /* ParseEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D225183A1AA0A86B003C2A9E /* ParseEngine.swift */; };
+		D225183D1AA0AB73003C2A9E /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = D225183C1AA0AB73003C2A9E /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D225182C1AA0A5A3003C2A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D225182D1AA0A5A3003C2A9E /* SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoTests.swift; sourceTree = "<group>"; };
 		D225183A1AA0A86B003C2A9E /* ParseEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseEngine.swift; sourceTree = "<group>"; };
+		D225183C1AA0AB73003C2A9E /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				D225183A1AA0A86B003C2A9E /* ParseEngine.swift */,
+				D225183C1AA0AB73003C2A9E /* Track.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				D225183B1AA0A86B003C2A9E /* ParseEngine.swift in Sources */,
 				D225181A1AA0A5A3003C2A9E /* ViewController.swift in Sources */,
 				D22518181AA0A5A3003C2A9E /* AppDelegate.swift in Sources */,
+				D225183D1AA0AB73003C2A9E /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
