@@ -78,10 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				D22518171AA0A5A3003C2A9E /* AppDelegate.swift */,
-				D22518191AA0A5A3003C2A9E /* ViewController.swift */,
+				D22518381AA0A7F3003C2A9E /* Model */,
+				D22518391AA0A7F9003C2A9E /* Views */,
+				D22518371AA0A7E9003C2A9E /* View Controllers */,
 				D225181B1AA0A5A3003C2A9E /* Main.storyboard */,
-				D225181E1AA0A5A3003C2A9E /* Images.xcassets */,
-				D22518201AA0A5A3003C2A9E /* LaunchScreen.xib */,
 				D22518151AA0A5A3003C2A9E /* Supporting Files */,
 			);
 			path = SwiftDemo;
@@ -90,6 +90,8 @@
 		D22518151AA0A5A3003C2A9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D225181E1AA0A5A3003C2A9E /* Images.xcassets */,
+				D22518201AA0A5A3003C2A9E /* LaunchScreen.xib */,
 				D22518161AA0A5A3003C2A9E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +112,28 @@
 				D225182C1AA0A5A3003C2A9E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D22518371AA0A7E9003C2A9E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D22518191AA0A5A3003C2A9E /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D22518381AA0A7F3003C2A9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D22518391AA0A7F9003C2A9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +429,7 @@
 				D22518331AA0A5A3003C2A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D22518341AA0A5A3003C2A9E /* Build configuration list for PBXNativeTarget "SwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				D22518361AA0A5A3003C2A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
