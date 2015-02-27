@@ -13,6 +13,7 @@
 		D225181F1AA0A5A3003C2A9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D225181E1AA0A5A3003C2A9E /* Images.xcassets */; };
 		D22518221AA0A5A3003C2A9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D22518201AA0A5A3003C2A9E /* LaunchScreen.xib */; };
 		D225182E1AA0A5A3003C2A9E /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D225182D1AA0A5A3003C2A9E /* SwiftDemoTests.swift */; };
+		D225183B1AA0A86B003C2A9E /* ParseEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D225183A1AA0A86B003C2A9E /* ParseEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D22518271AA0A5A3003C2A9E /* SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D225182C1AA0A5A3003C2A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D225182D1AA0A5A3003C2A9E /* SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoTests.swift; sourceTree = "<group>"; };
+		D225183A1AA0A86B003C2A9E /* ParseEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		D22518381AA0A7F3003C2A9E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D225183A1AA0A86B003C2A9E /* ParseEngine.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D225183B1AA0A86B003C2A9E /* ParseEngine.swift in Sources */,
 				D225181A1AA0A5A3003C2A9E /* ViewController.swift in Sources */,
 				D22518181AA0A5A3003C2A9E /* AppDelegate.swift in Sources */,
 			);
