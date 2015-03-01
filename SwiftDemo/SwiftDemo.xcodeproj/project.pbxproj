@@ -150,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				D22518401AA0AD02003C2A9E /* ListViewController.swift */,
-				D275E6551AA2DF1900161636 /* ListViewCell.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -167,6 +166,7 @@
 		D22518391AA0A7F9003C2A9E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D275E6551AA2DF1900161636 /* ListViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
